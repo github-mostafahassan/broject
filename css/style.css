@@ -1,0 +1,304 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+.btnScrol{
+    position: fixed;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    right:  20px;
+    bottom: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    color: white;
+    display: none;
+}
+
+
+
+
+
+
+
+header{
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    animation-name: skileimg  ;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-direction: inherit;
+    animation-timing-function: linear;
+    transition: 0.7s all;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+
+
+h1{
+    font-size: 65px;
+    font-weight: bolder;
+    font-family: pluse sans-serif;
+    transform: translate(15px);
+}
+
+p{
+    text-align: center;
+}
+
+
+header h3{
+    font-size: 15px;
+}
+
+
+header .content {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 25px 30px;
+    height:  230px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    transform: rotate(220deg);
+    border-radius: 15px;
+ }
+
+
+
+
+
+header .content h3{
+    margin: auto;
+    text-align: center;
+}
+
+header .content p{
+    color: #bc6c25;
+}
+
+
+.btns{
+    display: flex;
+}
+
+header .content .innar{
+    transform: rotate(-220deg);
+    white-space: nowrap ;
+}
+
+
+
+
+@keyframes skileimg {
+
+    0%{
+        background-image: url(../image/cute-korean-barista-girl-pouring-coffee-prepare-filter-batch-brew-pour-working-cafe.jpg);
+    }
+
+    25%{
+        background-image: url(../image/happy-waitress-giving-coffee-customers-while-serving-them-coffee-shop.jpg);
+    }
+
+    50%{
+        background-image: url(../image/mid-section-waitress-wiping-espresso-machine-with-napkin-cafa-c.jpg);
+    }
+
+    75%{
+        background-image: url(../image/sincere-laugh-showing-picture-smartphone-casual-meeting-with-best-friends-restaurant-terrace.jpg);
+    }
+
+    100%{
+        background-image: url(../image/sincere-laugh-showing-picture-smartphone-casual-meeting-with-best-friends-restaurant-terrace\ \(1\).jpg);
+    }
+    
+}
+
+
+
+.btns{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+
+
+
+.btns button.our , button.chike{
+
+    padding: 10px;
+    border: none;
+    margin: 0px 10px;
+    border-radius: 25px 30px;
+    background-color: transparent;
+    transition: 0.7s all;
+    cursor: pointer;
+}
+
+.btns button.our:hover{
+    background-color: white;
+    
+}
+
+.btns button.our:hover a{
+    
+    color: #bc6c25;
+}
+
+.btns button.our a , .chike a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.btns button.chike{
+
+    background-color: #bc6c25;
+
+
+}
+
+
+section .test p{
+padding: 10px;
+color: white;
+
+}
+
+
+section .test h2{
+
+    color: white;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+section{
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #b78752;
+}
+
+section .test{
+    margin-bottom: 10px;
+}
+
+
+section .content {
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+}
+
+
+
+
+section .content .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+
+}
+
+
+
+section .content .innar1{
+    width: 25%;
+    margin: 0px 5px;
+    border-radius: 15px;
+    transition: 0.3s all;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+
+section .content figcaption{
+    position: absolute;
+    z-index: 222222;
+    bottom: 20px;
+    color: white;
+}
+
+
+section .content figcaption .inar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .content figcaption .inar h5{
+
+    padding: 8px;
+    background-color: #bc6c25;
+    width: fit-content;
+    border-radius: 10px;
+    margin-left: 20px;
+    position: relative;
+}
+
+
+section .content figcaption .inar h5::before{
+    content: "";
+    position: absolute;
+    left: -18px;
+    top:   50%;
+    margin-top: -10px;
+    /* width: 15px;
+    height: 15px; */
+    border-top: 10px solid transparent ;
+    border-bottom: 10px solid transparent ;
+    border-left: 10px solid transparent ;
+    border-right: 10px solid #bc6c25 ;
+}
+
+
+
+
+
+
+
+
+section .content .innar1 img{
+    border-radius: inherit;
+    width: 100%;
+      transition: 0.3s all;
+}
+
+
+section .content .innar1:hover img {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+

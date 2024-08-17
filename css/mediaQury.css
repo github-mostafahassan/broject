@@ -1,0 +1,58 @@
+
+
+
+@media screen and ( max-width: 700px){
+    
+
+
+
+    h1{
+        font-size: 50px;
+        transform: translate(50px);
+    }
+
+    section .content .row{
+        flex-wrap: wrap;
+    }
+
+    section .content .innar1{
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width:700px) and (max-width:1000px){
+    
+    section .content .row{
+        flex-wrap: wrap;
+    }
+
+    section .content .innar1{
+        width: 48%;
+    }
+
+    section .content figcaption{
+        padding: 10px;
+    }
+    
+
+}
+
+
+@media screen and (min-width : 1000px) and (max-width : 1350px) {
+    
+
+
+    section .content .row{
+        flex-wrap: wrap;
+    }
+
+    section .content .innar1{
+        width: 31%;
+    }
+
+    section .content figcaption{
+        padding: 10px;
+    }
+
+}
